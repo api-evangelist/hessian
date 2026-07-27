@@ -1,7 +1,18 @@
 aid: hessian
 name: Hessian
-description: Hessian is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Hessian is a Y Combinator (Spring 2026) startup building a forward-deployed AI
+  agent platform for automating business operations. Its engineers embed on-site
+  to map real workflows, then build and operate custom AI agents on the Hessian
+  platform to run those processes end-to-end — spanning sales proposals, financial
+  reconciliation, data management, and internal-system synchronization. The
+  platform surfaces workflows, task and agent orchestration, workers, queue
+  groups, prompts, assets, artifacts, secrets, webhooks, and audit logging, with
+  integrations for tools such as GitHub, Slack, Postgres, AWS, Docker, Kubernetes,
+  OpenAI, and Claude. Hessian does not yet publish a public API, developer
+  documentation, SDKs, or an OpenAPI definition; this profile captures its
+  verifiable public identity and web properties while the developer surface is
+  awaiting release.
 url: https://raw.githubusercontent.com/api-evangelist/hessian/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +20,52 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-yc-batch: Spring 2026
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://hessian.sh/favicon.svg
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Automation
+- Workflow Automation
+- Operations
+- Y Combinator
+- Forward Deployed
 apis: []
+common:
+- type: Website
+  url: https://hessian.sh
+- type: GitHubOrganization
+  url: https://github.com/hessianhq
+- type: LinkedIn
+  url: https://www.linkedin.com/company/hessianhq/
+- type: TermsOfService
+  url: https://hessian.sh/legal/terms
+- type: PrivacyPolicy
+  url: https://hessian.sh/legal/privacy
+- type: DomainSecurity
+  url: security/hessian-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
