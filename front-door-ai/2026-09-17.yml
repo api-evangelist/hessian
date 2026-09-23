@@ -1,0 +1,31 @@
+# Front Door AI Index — hessian — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: hessian
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: hessian.sh
+  final_host: hessian.sh
+  ownership: own
+  owner: hessian
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 11
+  host_score: 11
+  density: 14.27
+  words: 771
+  tiers:
+    agentic: 3
+    core: 4
+    model: 4
+  ambiguous: 10
+  top_terms:
+    agent: 10
+    AI: 4
+    Claude: 2
+    OpenAI: 2
+    AI agent: 1
+    inference: 1
+    prompts: 1
