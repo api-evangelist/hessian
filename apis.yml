@@ -45,7 +45,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 image: https://hessian.sh/favicon.svg
 tags:
 - Company
@@ -67,6 +67,8 @@ tags_raw:
 - Workflow-Automation
 apis: []
 common:
+- url: https://hessian.sh/blog/
+  type: Blog
 - type: Website
   url: https://hessian.sh
 - type: GitHubOrganization
